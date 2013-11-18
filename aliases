@@ -1,0 +1,8 @@
+# general purpose
+alias psg='ps -ef | grep'
+
+# Glassfish Application Server
+alias startgf='sudo /opt/glassfish3/glassfish/bin/asadmin start-domain'
+alias tails='sudo tail -1f /opt/glassfish3/glassfish/domains/domain1/logs/server.log &'
+alias golog='cd /opt/glassfish3/glassfish/domains/domain1/logs/'
+
